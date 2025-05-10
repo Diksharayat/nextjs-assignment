@@ -1,6 +1,6 @@
 // components/SearchStatusBar.tsx
 import React from 'react';
-import { ChevronLeftSquare, Mail, ThumbsUp, X } from 'lucide-react';
+import { ThumbsUp } from 'lucide-react';
 
 
 const SearchStatusBar = () => {
