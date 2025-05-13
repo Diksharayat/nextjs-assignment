@@ -1,4 +1,4 @@
-import BasicTableOne from "@/components/tables/GuestTable";
+import GuestTable from "@/components/tables/GuestTable";
 import DetailsSection from "@/components/user-profile/DetailsSection";
 import SearchStatusBar from "@/components/user-profile/SearchStatusBar";
 import UserProfileCard from "@/components/user-profile/UserProfileCard";
@@ -17,7 +17,7 @@ export default function TelemarketingPage() {
       <div className="space-y-6">
         <DetailsSection/>
         <SearchStatusBar />
-        <BasicTableOne />
+        <GuestTable />
         <UserProfileCard />
       </div>
     </div>
